@@ -1,11 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
 h1 {
-  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Audiowide', cursive;
+  text-align: center;
+}
+h2 {
+  font-family: 'Audiowide', cursive;
+  text-align: center;
+}
+#header {
+  width: 90%;
+  border: 15px solid blue;
+  padding: 25px;
+  margin: 15px;
 }
 
 li {
-  font-family: Georgia;
+  font-family: 'Special Elite', cursive;
+  
 }
 
 ul ul {
@@ -13,15 +26,19 @@ ul ul {
 }
 
 #ingredients li { 
-  font-family: Arial;
+  font-family: 'Special Elite', cursive;
 }
 
 #ingredients li span {
   font-style: italic;
-  color: #999;
+  color: #ADD8E6;
 }
-
-#equipment li:nth-child(3) {
-  color: red;
+h4 {
+  font-family: 'Special Elite', cursive;
 }
-      
+p {
+  font-family: 'Special Elite', cursive;
+}
+#highlight {
+  background-color: #ECECEC;
+}
